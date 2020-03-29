@@ -28,17 +28,6 @@ public class Main {
 
 
 
-			//		char []theArrayChar= line1.toCharArray();
-			//		for (int i = 0; i < theArrayChar.length; i++) {
-			//			System.out.println(theArrayChar[i]);
-			//		}
-
-//					for (int i = 0; i < arr.size(); i++) {
-//						
-//						System.out.print(arr.get(0)+" ");
-//						
-//					}
-
 
 
 		

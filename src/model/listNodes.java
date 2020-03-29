@@ -151,23 +151,7 @@ public class listNodes {
 	}
 
 
-	public void addNodeEnd(String let) {
-		nodo newNodo = new nodo();
-		newNodo.setLetter(let);
-		if(first == null) {
-			first = newNodo;
-		}
-		else {
-			int pos =0;
-			nodo aux = first;
-			while(pos != size-1){
-				pos++;
-				aux = aux.getNext();	
-			}
-			aux.setNext(newNodo);
-		}
-		size++;
-	}
+
 	
 	
 	public void insertEnd(String c) {
@@ -182,27 +166,7 @@ public class listNodes {
 		size++;
 	}
 
-	public void addNodeMid(String let) {
 
-		nodo newNodo = new nodo();
-		newNodo.setLetter(let);
-		if(first == null) {
-			first = newNodo;
-		}else {
-			int pos =0;
-			nodo act = first;
-			while( pos != (size/2) 	) {
-				pos++;
-				act = act.getNext();
-
-			}
-			nodo siguiente = act.getNext();
-			act.setNext(newNodo);
-			newNodo.setNext(siguiente);
-			size++;
-		}
-
-	}
 	public void insertMid(String c) {
 			int pos = size/2;
 			nodo aux = first;
